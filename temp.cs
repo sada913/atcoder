@@ -16,11 +16,12 @@ namespace Atcoder
         private static long[] ReadLongs() { return Array.ConvertAll(Read().Split(), long.Parse); }
         private static double[] ReadDoubles() { return Array.ConvertAll(Read().Split(), double.Parse); }
 
+        private static void Yes() { print("Yes");}
+        private static void No()  { print("No") ;}
         private static void print(object obj) { Console.WriteLine(obj); }
 
         static void Main(string[] args)
         {
-            print(12);
         }
     }
 }
